@@ -5,6 +5,10 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+.text-primary{
+    color: #E55473;
+}
 .header{
     background: rgba(229, 84, 115, 0.10);
     background-repeat: no-repeat;
@@ -107,4 +111,62 @@ body{
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+.hot-deal{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 130px;
+    /* justify-content: center; */
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    background-image: url('../images/pngwing\ 8.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    /* justify-content: space-between; */
+}
+.hot-deal-title{
+    padding-top: 200px;
+    /* padding-left: 150px; */
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 0px;
+    margin-left: -300px;
+    margin-right: 200px;
+    padding-right: 250px;
+    margin-bottom: 32px;
+}
+.hot-deal .btn-primary{
+    margin-left: 150px;
+}
+
+.instagram{
+    background: #FFF;
+    margin-top: 128px;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.instagram-img-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
