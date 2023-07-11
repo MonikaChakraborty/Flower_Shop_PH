@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* common shared styles */
 
 body{
@@ -41,9 +42,10 @@ body{
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    margin-bottom: 32px; 
+    margin: 100px 0px 32px 0px;
+    /* margin-bottom: 32px; 
     margin-top: 100px;
-    margin-left: 0px;  
+    margin-left: 0px;   */
 }
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
@@ -126,16 +128,17 @@ body{
     margin-bottom: 32px;
 }
 .hot-deal .btn-primary{
-    margin-left: 200px;
+    margin-left: 190px;
 }
 
 /* about section related styles*/
+
 .about{
     display: flex;
     border-radius: 8px;
     align-items: center;
     justify-content: space-around;
-    background-image: url('../images/bg-white.jpg');
+    background-image: url('../images/about_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 50px;
@@ -159,7 +162,6 @@ body{
     margin-bottom: 24px;
 }
 .about-description{
-    /* color: rgba(39, 39, 39, 0.60); */
     padding-left: 30px;
     font-size: 18px;
     font-weight: 400;
@@ -176,6 +178,9 @@ details{
 .instagram{
     background: #FFF;
     margin-top: 128px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    padding: 48px 150px;
 }
 .instagram-title{
     color: #272727;
@@ -192,21 +197,25 @@ details{
     margin-bottom: 48px;
 }
 .instagram-img-container{
+    max-width: 1500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 24px;
     margin-bottom: 130px;
+    /* padding: 0 500px; */
 }
 
 /* latest-deal section related styles */
 
 .latest-deal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     background-image: url('../images/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    margin-right: 150px;
-    margin-left: 150px;
-    margin-bottom: 130px;
+    margin: 0px 150px 130px 150px;
 }
 .latest-deal-title{
     color: #272727;
@@ -223,15 +232,23 @@ details{
     font-weight: 400;
     margin-bottom: 50px;
 }
+.latest-deal .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
 .latest-deal input{
     border-radius: 8px;
     background: #FFF;
     border: 0;
-    padding: 24px 512px 24px 24px;
-    margin-bottom: 121px;
-    margin-right: 16px;
-    margin-left: 240px;
+    padding: 24px;
+    width: 300px;
 }
+.latest-deal .btn-primary {
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
 
 /* footer related styles */
 
