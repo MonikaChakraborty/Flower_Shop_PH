@@ -129,6 +129,48 @@ body{
     margin-left: 200px;
 }
 
+/* about section related styles*/
+.about{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../images/bg-white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    margin-bottom: 130px;
+}
+.about-container{
+    max-width: 600px;
+}
+.about-title{
+    padding-top: 150px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-decoration: underline;    
+}
+.about-info{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.about-description{
+    /* color: rgba(39, 39, 39, 0.60); */
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -30px;
+    margin-bottom: 0px;
+}
+details{
+    margin-bottom: 100px;
+}
+  
+
 /* instagram section related styles */
 
 .instagram{
